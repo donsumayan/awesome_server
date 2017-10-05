@@ -6,8 +6,10 @@ var f = require('util').format;
 
 var user = encodeURIComponent('awesome_db');
 var password = encodeURIComponent(process.env.awesome_mongo_pass);
+var port = process.env.awesome_mongo_port;
+var host = process.env.awesome_mongo_host;
 
-var url = `mongodb://${user}:${password}@35.162.3.63:27017/awesome_db?authMechanism=DEFAULT`;
+var url = `mongodb://${user}:${password}@${host}:${port}/awesome_db?authMechanism=DEFAULT`;
 
 MongoClient.connect(url, function(err, db) {
     if(err){
