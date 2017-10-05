@@ -1,0 +1,25 @@
+{
+  "name": "awesome_server",
+  "version": "1.0.0",
+  "description": "this will be my awesome server, it will mostly hold logic for test apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donsumayan/awesome_server.git"
+  },
+  "keywords": [
+    "awesome_server"
+  ],
+  "author": "Donraedel Sumayan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donsumayan/awesome_server/issues"
+  },
+  "homepage": "https://github.com/donsumayan/awesome_server#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
